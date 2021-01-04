@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="10" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0cc53fd9-1e82-46e3-b95e-f2a3f3555ef6" name="Default Changelist" comment="database, groups and links. Need sensor data">
+      <change afterPath="$PROJECT_DIR$/Homepage/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homepage/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homepage/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homepage/Homepage.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homepage/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homepage/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homepage/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homepage/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homepage/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homepage/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homepage/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homepage/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homepage/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/0_homepage_key_seq.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/1_create_table_link_group.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/2_create_table_links.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/3_create_table_temp_humidity_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/4_insert_data_to_link_group.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/queries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/www.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1mWQ60FcbKtsjf7PhD1JUPTdmop" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PostgreSQL" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.5.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.19" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/Homepage/node_modules/protractor" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/Homepage/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Homepage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Homepage/bin" />
+      <recent name="$PROJECT_DIR$/Homepage/src/app/services" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3080/links" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server (Homepage)">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="http-requests-log#10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" index="10" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="http-requests-log#11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" index="11" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (Homepage)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/Homepage/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/Homepage/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application (Homepage)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server (Homepage)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/Homepage/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <arguments value="--watch" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Homepage/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="ng" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Homepage/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="ng" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.http-requests-log#10" />
+      <item itemvalue="HTTP Request.http-requests-log#11" />
+      <item itemvalue="JavaScript Debug.Angular Application (Homepage)" />
+      <item itemvalue="npm.Angular CLI Server (Homepage)" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.ng" />
+      <item itemvalue="Protractor.E2E Tests (Homepage)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.ng" />
+        <item itemvalue="HTTP Request.http-requests-log#11" />
+        <item itemvalue="HTTP Request.http-requests-log#10" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cc53fd9-1e82-46e3-b95e-f2a3f3555ef6" name="Default Changelist" comment="" />
+      <created>1609606696766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609606696766</updated>
+      <workItem from="1609606697915" duration="13476000" />
+      <workItem from="1609626740097" duration="9004000" />
+      <workItem from="1609694491399" duration="3574000" />
+      <workItem from="1609700862396" duration="21844000" />
+      <workItem from="1609723875290" duration="5625000" />
+      <workItem from="1609729513192" duration="198000" />
+      <workItem from="1609729736410" duration="316000" />
+      <workItem from="1609730254234" duration="1135000" />
+      <workItem from="1609731593390" duration="303000" />
+    </task>
+    <task id="LOCAL-00001" summary="Application is running on express server">
+      <created>1609609549706</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609609549706</updated>
+    </task>
+    <task id="LOCAL-00002" summary="groups layout on page">
+      <created>1609612629463</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609612629463</updated>
+    </task>
+    <task id="LOCAL-00003" summary="database, groups and links. Need sensor data">
+      <created>1609721621143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609721621143</updated>
+    </task>
+    <task id="LOCAL-00004" summary="database, groups and links. Need sensor data">
+      <created>1609722017176</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609722017176</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Homepage" />
+    </ignored-roots>
+    <MESSAGE value="Application is running on express server" />
+    <MESSAGE value="groups layout on page" />
+    <MESSAGE value="database, groups and links. Need sensor data" />
+    <option name="LAST_COMMIT_MESSAGE" value="database, groups and links. Need sensor data" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Homepage/src/app/app.component.ts</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Homepage/src/app/app.component.ts</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Homepage/src/app/services/link.service.ts</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Homepage/src/app/app.component.ts</url>
+          <line>27</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Homepage/src/app/model/group.ts</url>
+          <line>11</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Homepage/src/app/temp-humidity/temp-humidity.component.ts</url>
+          <line>22</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Homepage/src/app/temp-humidity/temp-humidity.component.ts</url>
+          <line>19</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

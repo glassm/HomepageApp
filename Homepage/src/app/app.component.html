@@ -1,0 +1,9 @@
+<app-header></app-header>
+<hr>
+<div>
+  <div class="layout" *ngFor="let group of groups">
+    <div >
+      <app-link-group [title]="group.groupTitle" [links]="group.links"></app-link-group>
+    </div>
+  </div>
+</div>

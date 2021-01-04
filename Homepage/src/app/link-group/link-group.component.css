@@ -1,0 +1,10 @@
+.group-title {
+  font-size: .75rem;
+  color: black;
+  font-weight: bold;
+}
+
+.link-group {
+  border: 1px solid darkblue;
+  padding-right: 20px;
+}
